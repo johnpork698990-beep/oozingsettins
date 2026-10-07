@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "oozings_settings",
+  "version": "${version}",
+  "name": "Oozings Settings",
+  "description": "Server-side settings GUI: block potion brewing and set item cooldowns.",
+  "authors": ["Oozing"],
+  "environment": "server",
+  "entrypoints": { "main": ["com.oozing.settings.OozingsSettings"] },
+  "mixins": ["oozings_settings.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
